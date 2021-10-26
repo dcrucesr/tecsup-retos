@@ -1,0 +1,45 @@
+.gridreto {
+    display: grid;
+    grid-template: "verde verde rosa rosa rosa""verde verde violeta violeta rojo" "gris gris violeta violeta naranja";
+    grid-template-rows: 200px 200px 200px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    color: white;
+    text-align: center;
+}
+
+.verde {
+    background: green;
+    grid-area: verde;
+    border-radius: 20px;
+}
+
+.rosa {
+    background: pink;
+    grid-area: rosa;
+    border-radius: 20px;
+}
+
+.violeta {
+    background: violet;
+    grid-area: violeta;
+    border-radius: 20px;
+}
+
+.rojo {
+    background: red;
+    grid-area: rojo;
+    border-radius: 20px;
+}
+
+.gris {
+    background: gray;
+    grid-area: gris;
+    border-radius: 20px;
+}
+
+.naranja {
+    background: orange;
+    grid-area: naranja;
+    border-radius: 20px;
+}

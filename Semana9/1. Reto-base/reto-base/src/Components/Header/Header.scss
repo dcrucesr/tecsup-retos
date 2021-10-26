@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap");
+
+$font-proyecto: "Roboto", sans-serif;
+
+$color-header: coral;
+
+header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-header;
+  height: 120px;
+  font-size: 25px;
+  color: white;
+}

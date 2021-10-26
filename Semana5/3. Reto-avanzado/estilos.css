@@ -1,0 +1,52 @@
+* {
+    font-family: Georgia;
+}
+
+h2 {
+    text-align: center;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    max-width: 500px;
+    padding: 30px;
+}
+
+.formulario input[type=button] {
+    margin-top: 10px;
+    color: white;
+    background-color: coral;
+}
+
+.formulario input[type=button]:focus {
+    background-color: cornflowerblue;
+}
+
+.formulario label {
+    padding-top: 20px;
+}
+
+.leyenda {
+    display: flex;
+    justify-content: center;
+}
+
+.leyenda table {
+    border-spacing: 0px;
+}
+
+.leyenda caption {
+    font-size: 25px;
+}
+
+td {
+    padding: 5px;
+    border-bottom: 1px solid black;
+}

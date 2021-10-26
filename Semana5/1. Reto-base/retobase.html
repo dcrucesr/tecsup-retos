@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>reto base - semana 5</title>
+</head>
+
+<body>
+    <h2>Calculadora de Ganancia por galones de leche según litros ingresados</h2>
+    <div class="formulario">
+        <table>
+            <tr>
+                <th align="left"><label for="PrecioGalon">El precio del galón es:(PG) </label></th>
+                <th> <input type="text" name="PG" id="pGalones" onchange="calcular()"></th>
+            </tr>
+            <tr>
+                <th align="left"><label for="LibrosProducidos">Ingrese la cantidad de litros producidos:(L)</label></th>
+                <th><input type="text" name="litros" id="litros" onchange="calcular()"></th>
+            </tr>
+            <tr>
+                <th align="left "><label for="CantidadGalones "> La cantidad de galones producidos es:(TG) </label></th>
+                <th><input type="text " name="TG " id="cGalones" disabled></th>
+            </tr>
+            <tr>
+                <th align="left "> <label for="GananciaTotal ">La ganancia total es:(GA)</label></th>
+                <th> <input type="text " name="GA " id="gTotal" disabled></th>
+            </tr>
+        </table>
+    </div>
+    <div class="leyenda ">
+        <table>
+            <caption align="top "> Leyenda de datos</caption>
+            <tr style="color: white; background-color: skyblue; ">
+                <th>Nombre de la variable</th>
+                <th>Descripción</th>
+                <th>Tipo</th>
+            </tr>
+            <tr>
+                <td>L</td>
+                <td>Cantidad de Litros</td>
+                <td>Entero</td>
+            </tr>
+            <tr>
+                <td>PG</td>
+                <td>Precio del galón</td>
+                <td>Real</td>
+            </tr>
+            <tr>
+                <td>TG</td>
+                <td>Cantidad de galones que produce</td>
+                <td>Real</td>
+            </tr>
+            <tr>
+                <td>GA</td>
+                <td>Ganancia de galones que produce</td>
+                <td>Real</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

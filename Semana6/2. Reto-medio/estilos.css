@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenido {
+    background-color: cornsilk;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    width: 300px;
+}
+
+.textos {
+    padding-top: 10px;
+}
+
+.list-tarea ul {
+    padding-left: 0px;
+}
+
+.list-tarea li {
+    list-style: none;
+    padding: 10px 5px;
+    border: 1px solid darkorange;
+    text-align: center;
+}
+
+#agregarbtn {
+    background-color: coral;
+    color: white;
+}
+
+#tareaHechas,
+#todo {
+    color: blue;
+}
+
+#tareaHechas:hover,
+#todo:hover {
+    color: salmon;
+    background-color: springgreen;
+}
+
+header {
+    font-size: 30px;
+}
+
+.checked {
+    text-decoration: line-through;
+    background-color: #e0e0e0;
+}

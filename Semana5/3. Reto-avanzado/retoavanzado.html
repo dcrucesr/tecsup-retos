@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>reto medio - semana 5</title>
+</head>
+
+<body>
+    <h2>"El consultorio del Dr. Lorenzo T. Mata Lozano”</h2>
+    <div class="cabecera">
+        <form class="formulario">
+            <label> Ingrese el número de consulta:</label>
+            <input type="text" name="nConsulta" id="nConsulta">
+            <input type="button" value="Calcular" onclick="calcularCita()">
+            <label>El costo de la cita es:</label>
+            <input type="text " name="costoCita" id="costoCita" disabled>
+            <label>El costo total de tratamiento es:</label>
+            <input type="text " name="totalPago " id="totalPago" disabled>
+        </form>
+    </div>
+    <div class="leyenda ">
+        <table>
+            <caption align="top "> Leyenda de datos</caption>
+            <tr style="color: white; background-color: skyblue; ">
+                <th>Nombre de la variable</th>
+                <th>Descripción</th>
+                <th>Tipo</th>
+            </tr>
+            <tr>
+                <td>NC</td>
+                <td>Número de consulta</td>
+                <td>Entero</td>
+            </tr>
+            <tr>
+                <td>CC</td>
+                <td>Costo de cita</td>
+                <td>Real</td>
+            </tr>
+            <tr>
+                <td>TOT</td>
+                <td>Costo del tratamiento</td>
+                <td>Real</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

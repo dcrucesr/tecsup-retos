@@ -1,0 +1,53 @@
+.form {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+
+    form {
+        width: 500px;
+        background-color: blanchedalmond;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px;
+
+        &__cont {
+            width: 100%;
+            padding: 0px 15px;
+
+            &__label {
+                font-size: 18px;
+                display: flex;
+                flex-direction: row;
+            }
+
+            &__input {
+                img {
+                    width: 5px;
+                    height: 5px;
+                }
+
+                input {
+                    width: 100%;
+                }
+
+                select {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    &__titulo {
+        font-size: 25px;
+        padding: 20px;
+    }
+
+}
+
+.opcional {
+    opacity: 0.5;
+}

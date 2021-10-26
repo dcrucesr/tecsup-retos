@@ -1,0 +1,90 @@
+.cabecera {
+    font-size: 35px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.bienvenida {
+    display: grid;
+    grid-template-areas: "d d";
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.welcome {
+    font-size: 15px;
+    font-family: Verdana;
+}
+
+.buttonI {
+    align-self: center;
+}
+
+.buttonIni {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+.gridIzq {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-areas: "a b" "a c";
+    grid-template-rows: repeat(2, 300px);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.proIzq {
+    grid-area: a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.proIzq img {
+    width: 450px;
+    height: auto;
+}
+
+.proDerA {
+    grid-area: b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.proDerA img {
+    width: 200px;
+    height: auto;
+}
+
+.proDerB {
+    grid-area: c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.proDerB img {
+    width: 200px;
+    height: auto;
+}
+
+.gridDer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-areas: "b a" "c a";
+    grid-template-rows: repeat(2, 300px);
+    row-gap: 10px;
+    column-gap: 10px;
+}

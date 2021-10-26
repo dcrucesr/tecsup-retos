@@ -1,0 +1,19 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: lightskyblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+button{
+    background-color: cornflowerblue;
+    color: white;
+    outline: none;
+    border-style: none;
+    
+    padding: 8px;
+    width: 100px;
+    
+}

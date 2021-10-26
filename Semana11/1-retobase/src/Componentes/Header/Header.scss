@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-family: 'Permanent Marker', cursive;
+}
+a:focus{
+  background-color:crimson;
+}

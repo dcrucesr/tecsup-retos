@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-server2",
+      "author": "typicode"
+    },
+    {
+      "id": 3,
+      "title": "json-server3",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "proyect": {
+    "title": "Hola , soy Josue Retamozo Vargas",
+    "url": "https://images.pexels.com/photos/999267/pexels-photo-999267.jpeg?cs=srgb&dl=pexels-the-lazy-artist-gallery-999267.jpg&fm=jpg",
+    "descripcion": "frontend , apasionado por el desarrollo web",
+    "subtitulo": "Mas información sobre mi",
+    "biografia": "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,\n          cum. Ipsam quasi officiis nam neque quia fugiat, officia, consequuntur\n          deserunt commodi, optio adipisci. Totam ab consequatur, excepturi\n          voluptas libero eaque. Atque exercitationem quibusdam magnam vel\n          sapiente dignissimos aut nobis sequi quas quis ut enim ex placeat\n          similique alias eligendi, sunt consectetur ullam quos velit! Molestiae\n          soluta velit possimus sequi unde. Voluptate saepe atque amet tempore\n          suscipit deleniti eum eaque placeat veritatis! Perferendis ducimus\n          saepe non corrupti dicta itaque consequatur perspiciatis voluptatem\n          illo aperiam necessitatibus quod ex maxime, adipisci aut quibusdam.\n          Debitis eius consequuntur velit labore, repellendus alias autem omnis\n          ullam odit quis impedit porro facilis vitae! Minus iure facere quia\n          illo beatae odit animi quo, omnis perspiciatis, rem distinctio ut.\n          Omnis, a magni saepe non est facilis optio possimus reiciendis\n          molestiae dolorem laborum debitis quidem. Aspernatur, quam sed\n          exercitationem tempora omnis voluptate ut sunt officiis, impedit, cum",
+    "card": [
+      {
+        "key": 1,
+        "url": "https://picsum.photos/500",
+        "coment": "lorem lorem lorem lorem lorem lorem"
+      },
+      {
+        "key": 2,
+        "url": "https://picsum.photos/500",
+        "coment": "lorem lorem lorem lorem lorem lorem"
+      },
+      {
+        "key": 3,
+        "url": "https://picsum.photos/500",
+        "coment": "lorem lorem lorem lorem lorem lorem"
+      }
+    ]
+  }
+}

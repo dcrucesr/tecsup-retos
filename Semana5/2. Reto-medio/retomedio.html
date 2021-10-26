@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>reto medio - semana 5</title>
+</head>
+
+<body>
+    <h2>“El náufrago satisfecho”</h2>
+    <div class="cabecera">
+        <form class="formulario">
+            <label> Ingrese el tipo de hamburguesa:</label>
+            <select name="tipoH" id="tipoH" onchange="calcular()">
+                    <option value="simple">Hamburguesas sencillas - $20.00</option>
+                    <option value="doble">Hamburguesas Dobles - $25.00</option>
+                    <option value="triple">Hamburguesas Triples - $28.00</option>
+            </select>
+            <label>Ingrese la cantidad de cantidad de hamburguesa a comprar:</label>
+            <input type="text" name="cantidadH" id="cantidadH" onchange="calcular()">
+            <label> Ingrese el tipo de pago:</label>
+            <select name="tipoPago" id="tipoPago" onchange="calcular()">
+                    <option value="efectivo">Efectivo</option>
+                    <option value="tarjeta">Tarjeta de crédito</option>
+            </select>
+            <label>El cargo por usar la tarjeta es:</label>
+            <input type="text " name="cargoTarjeta" id="cargoTarjeta" disabled>
+            <label>El total a pagar es:</label>
+            <input type="text " name="totalPago" id="totalPago" disabled>
+        </form>
+    </div>
+    <div class="leyenda ">
+        <table>
+            <caption align="top "> Leyenda de datos</caption>
+            <tr style="color: white; background-color: skyblue; ">
+                <th>Nombre de la variable</th>
+                <th>Descripción</th>
+                <th>Tipo</th>
+            </tr>
+            <tr>
+                <td>TI</td>
+                <td>Tipo de hamburguesa</td>
+                <td>String</td>
+            </tr>
+            <tr>
+                <td>N</td>
+                <td>Número de hamburguesa</td>
+                <td>Entero</td>
+            </tr>
+            <tr>
+                <td>TP</td>
+                <td>Tipo de pago</td>
+                <td>String</td>
+            </tr>
+            <tr>
+                <td>PA</td>
+                <td>Precio de hamburguesa</td>
+                <td>Real</td>
+            </tr>
+            <tr>
+                <td>CA</td>
+                <td>Cargo por el uso de tarjeta</td>
+                <td>Real</td>
+            </tr>
+            <tr>
+                <td>TO</td>
+                <td>Total sin cargo</td>
+                <td>Real</td>
+            </tr>
+            <tr>
+                <td>TOT</td>
+                <td>Total con cargo</td>
+                <td>Real</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

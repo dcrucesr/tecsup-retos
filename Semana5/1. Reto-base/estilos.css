@@ -1,0 +1,31 @@
+* {
+    font-family: Georgia;
+}
+
+h2 {
+    text-align: center;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.leyenda {
+    display: flex;
+    justify-content: center;
+}
+
+.leyenda table {
+    border-spacing: 0px;
+}
+
+.leyenda caption {
+    font-size: 25px;
+}
+
+td {
+    padding: 5px;
+    border-bottom: 1px solid black;
+}

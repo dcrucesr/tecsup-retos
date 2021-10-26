@@ -1,0 +1,31 @@
+.columns {
+	display: flex;
+}
+.column1 {
+	background-color:rgb(145, 147, 255);
+    width: 15%;
+}
+.column2 {
+    background-color:rgb(115, 255, 0);
+    margin: 3px;
+}
+.column3 {
+    background-color:rgb(104, 121, 104);
+    width: 20%;
+}
+#menuhorizontal ul{
+    text-align: center
+}
+#menuhorizontal ul li {
+    display:inline-block;
+    text-align:center;
+ }
+header{
+    background-color: rgb(0, 255, 136);
+}
+section{
+    background-color: rgb(245, 59, 59);
+}
+footer{
+    background-color: cornsilk;
+}

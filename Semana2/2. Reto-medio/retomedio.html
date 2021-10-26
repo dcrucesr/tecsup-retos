@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="estilos.css" rel="stylesheet" type="text/css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reto intermedio</title>
+</head>
+
+<body>
+    <form class="formulario">
+        <h3 style="text-align: center;">Inscribirse</h3>
+        <label for="">Primer nombre</label><input type="text" minlength="6" required>
+        <br>
+        <label for="">Edad</label><input type="number" max="120" required>
+        <br>
+        <label for="">Ingreso</label><input type="text" minlength="6" required>
+        <br>
+        <label for="">Más información</label>
+        <textarea name="" id="" cols="30" rows="4" minlength="6"></textarea>
+        <br>
+        <label for="">Género</label>
+        <section id="genero">
+            <input type="radio" name="genero" value="Masculino" required> Masculino
+            <input type="radio" name="genero" value="Femenino" required> Femenino
+            <input type="radio" name="genero" value="Trans" required> Trans
+        </section>
+        <br>
+        <label for="">Plan</label>
+        <select name="Plan" id="Plan" required>
+            <option value="">Selecciona el Plan</option>
+            <option value="">Oro</option>
+            <option value="">Platino</option>
+            <option value="">Premium</option>
+        </select><br>
+        <section>
+            <input type="checkbox" name="" id=""> Suscribirse a Newsletter
+        </section>
+        <br>
+        <button type="submit"> Update </button>
+    </form>
+
+</body>
+
+</html>

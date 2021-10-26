@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.lista {
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+.lista li {
+    list-style: none;
+}
+
+a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: coral;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    padding-top: 20px;
+    width: 100%;
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+nav {
+    margin-right: 40px;
+}
+
+.tabla {
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.columna {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fila {
+    margin: 15px;
+    width: 200px;
+    height: 300px;
+    max-height: 300px;
+    max-width: 200px;
+    flex-grow: 1;
+    border-style: groove;
+    padding: 10px;
+}
+
+.text-precio {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.precio {
+    background-color: khaki;
+}
+
+.stock {
+    background-color: lavender;
+}
+
+.carrito {
+    text-align: center;
+    box-sizing: inherit;
+}
+
+.agregarCarrito {
+    background-color: lightcoral;
+    border: lightcyan;
+    padding: 7px;
+}
+
+
+/* Breakpoints para 480px (phones, 600px and down) */
+
+@media only screen and (max-width: 480px) {
+    .lista {
+        flex-wrap: wrap;
+    }
+}
+
+
+/* Breakpoints para 900px (laptops/desktops, 900px   and up) */
+
+@media only screen and (min-width: 900px) {
+    .lista {
+        flex-wrap: wrap;
+    }
+}

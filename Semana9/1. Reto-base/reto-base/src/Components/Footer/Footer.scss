@@ -1,0 +1,12 @@
+
+$color-header: rgb(133, 118, 51);
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-header;
+    margin-top: 30px;
+    height: 100px;
+    font-size: 30px;
+}
